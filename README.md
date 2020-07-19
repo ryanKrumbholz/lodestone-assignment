@@ -4,7 +4,7 @@
 To install this project, either download it as a zip file or clone this repo.
 
 # How to run it:
-In your terminal, navigate to the location of the repo and type the command 'npm run'.
+In your terminal, navigate to the location of the repo and type the command 'npm run'. To run the data randomization script, navigate to the scripts folder and type 'node Data'.
 
 # Answers to non-coding questions:
 Q: Given your answer, what approaches do you
