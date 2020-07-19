@@ -600,6 +600,19 @@ const Calculations = () => {
             <p>{`Rater ${minTask[0]} completed the least task at ${minTask[1]}.`}</p>
             <p>{`Rater ${maxCorrectTask[0]} had the highest agreement rate at ${maxRate}%.`}</p>
             <p>{`Rater ${minCorrectTask[0]} had the lowest agreement rate at ${minRate}%.`}</p>
+            <h3>Q: Given your answer, what approaches do you recommend you need to take to improve
+            your metrics, if the metric has not met engineering standards? 
+            </h3>
+            <p>Due to engineering standards not being met, I would implement an incentive based system to improve metrics. This would hopefully incentivize raters to more accurately label.</p>
+            <h3>
+                Q: Identify 3 more potential questions to consider that can be used to identify
+                issues among raters.
+            </h3>
+            <p>
+            1. What is the accuracy for each of the 5 labels?<br/>
+            2. What is the F score for each of the 5 labels?<br/>
+            3. What is the difference in overall accuracy between the 5 labels and 3 labels?
+            </p>
         </div>
 
     )
